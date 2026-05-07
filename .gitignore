@@ -1,0 +1,11 @@
+IN_NetCDF/
+OUT_BC/
+OUT_DS/
+PLOTS/
+data/
+*.log
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/secrets.toml
+condaenv.*.requirements.txt

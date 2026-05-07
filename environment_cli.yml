@@ -1,0 +1,32 @@
+name: aq_downscaling
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - cartopy
+  - rasterio
+  - streamlit
+  - folium
+  - streamlit-folium
+  - branca
+  - pillow
+  - protobuf<5
+  - xarray
+  - netCDF4
+  - h5netcdf
+  - h5py
+  - zarr
+  - dask
+  - toolz
+  - scipy
+  - cftime
+  - pooch
+  - requests
+  - pip
+  - pip:
+      - tensorflow==2.15.*
+      - keras==2.15.*
